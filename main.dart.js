@@ -63186,17 +63186,18 @@ s===$&&A.a()
 s.V$=$.ad()
 s.a_$=0
 this.aF()},
-J(a){var s,r,q,p,o=this,n=null,m=A.al(a,n,t.w).w.a.a*0.2,l=A.a4(o.a.d,n,n,n,n,B.agi,n,n,n)
+J(a){var s,r,q,p,o=this,n=null,m=A.al(a,n,t.w).w.a.a,l=!(m<600),k=l?m*0.2:0,j=l?12:0
+l=A.a4(o.a.d,n,n,n,n,B.agi,n,n,n)
 if(o.f||o.r!=null)s=A.b([],t.p)
 else{s=A.dF(n,n,n,n,B.xS,n,n,new A.b76(o),n,n,n,"Zoom Out")
-r=A.dF(n,n,n,n,B.xT,n,n,new A.b77(o),n,n,n,"Fit Screen (Presentation)")
+r=A.dF(n,n,n,n,B.xT,n,n,new A.b77(o),n,n,n,"Fit Screen")
 s=A.b([s,r,A.dF(n,n,n,n,A.cZ(o.w?B.xz:B.xy,B.h,n,n),n,n,new A.b78(o),n,n,n,"Full Width"),A.dF(n,n,n,n,B.xR,n,n,new A.b79(o),n,n,n,"Zoom In"),B.ch],t.p)}l=A.ig(s,n,n,!0,!0,B.d3,n,1,n,n,0,!1,n,!1,n,B.el,n,n,!0,n,n,n,n,n,l,n,n,n,1,n,!0)
 if(o.f)s=B.j8
 else{s=o.r
 if(s!=null)s=A.c8(new A.ap(B.bd,A.a4(s,n,n,n,n,B.L4,B.aZ,n,n),n),n,n)
 else{s=o.w
-r=s?0:m
-s=s?0:12
+r=s?0:k
+s=s?0:j
 q=o.e
 q.toString
 p=o.d
